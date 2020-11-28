@@ -1,0 +1,62 @@
+/*======================================================
+   -------- THEME CSS  TEMPLATE------------
+========================================================*/
+
+	   /*------------main-nav------------*/	
+	  #main-nav ul>li>a.active{
+	    background-color:black;
+	  }
+	  #main-nav a{
+		  transition:all .7s;
+	  }
+	   #main-nav a:hover,
+	   #main-nav a.active{
+		 background-color:black;
+	  }
+	 /*------------home part------------*/	 
+ 	  #home{
+	  background-image:url('../images/bg1.png');
+
+	  }
+	  /*------------Services part------------*/	
+	  #Services{
+	  background-image:url('../images/bg2.png');
+
+	  }#Services .bg-transparent-dark:hover{
+	  background-color:#1da89b8a !important;
+
+	  }	
+     /*------------review part------------*/		  
+	  #review{
+	  background-image:url(../images/bg3.png);
+
+	  }	
+      /*------------contrat part------------*/		  
+	  #contrat{
+	  background-image:url(../images/bg4.png);
+	
+	  }
+	  /*------------social part------------*/	
+	  #social-link ul>li{
+	   margin-right:12px;
+	  }
+	  #social-link ul>li>a{
+	   height:2.45rem;
+	   width:2.5rem;
+	  } 
+       /*------------social part------------*/
+	   #upper{
+		   display:none;
+	   }
+	  
+	  /*------------media part------------*/	
+	  @media(max-width:576px){
+	    .h5-sm{
+		   font-size:1.25rem;
+		   
+		}
+		.h6-sm{
+		   font-size:1rem;
+		   
+		}
+	  }
